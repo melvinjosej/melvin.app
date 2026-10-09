@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-design="monograph" data-mode="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melvin Johnson — Google DeepMind</title>
+  <meta name="description" content="Melvin Johnson is a Vice President of Research at Google DeepMind leading Gemini post-training, reasoning, and agentic systems. Previously led Multilingual Neural Machine Translation (Zero-Shot NMT) at Google Research." />
+  <link rel="canonical" href="https://melvin.app/" />
+  <meta property="og:title" content="Melvin Johnson — Google DeepMind" />
+  <meta property="og:description" content="Vice President, Gemini Post-Training at Google DeepMind. Research in post-training, reasoning, agents, and multilingual neural machine translation." />
+  <meta property="og:url" content="https://melvin.app/" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="page-shell">
+    <!-- ====================================================================
+         BLOCK A: Minimal Header & Bio
+         ==================================================================== -->
+    <header class="site-header" id="block-bio">
+      <div class="header-top">
+        <div class="identity-group">
+          <h1>Melvin Johnson</h1>
+          <p class="role-subtitle">Vice President, Gemini Post-Training · Google DeepMind</p>
+        </div>
+        <img
+          id="profile-portrait"
+          class="profile-portrait"
+          src="profile.jpg"
+          alt="Melvin Johnson"
+        />
+      </div>
+
+      <nav class="header-links" aria-label="External profiles">
+        <a href="https://scholar.google.com/citations?user=g4oMRgsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://research.google/people/105147/" target="_blank" rel="noopener noreferrer">Google Research</a>
+        <a href="https://www.semanticscholar.org/author/2109675545" target="_blank" rel="noopener noreferrer">Semantic Scholar</a>
+        <a href="https://www.linkedin.com/in/melvinjosej/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span>melvinj@google.com</span>
+        <span>me@melvinp.app</span>
+      </nav>
+
+      <!-- Sticky index navigation visible in Design 2 (Swiss Index) -->
+      <nav class="swiss-nav" aria-label="Page sections">
+        <a href="#block-bio">Overview</a>
+        <a href="#block-themes">Research Focus</a>
+        <a href="#block-publications">Publications</a>
+        <a href="#block-talks">Talks &amp; Essays</a>
+        <a href="#block-timeline">Timeline</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <!-- Intro Prose -->
+      <section class="content-section" aria-label="Biography">
+        <div class="bio-prose">
+          <p>
+            I lead the Gemini Post-Training effort at <a href="https://deepmind.google/" target="_blank" rel="noopener noreferrer">Google DeepMind</a> in Mountain View, where my team works on reinforcement learning, reasoning, alignment, evaluation, and unified modeling recipes across all the Gemini models.
+          </p>
+          <p class="secondary-para">
+            I joined Google in 2015 after completing my M.S. in Computer Science at Stanford University, where I worked with <a href="https://nlp.stanford.edu/~manning/" target="_blank" rel="noopener noreferrer">Christopher Manning</a> in the Stanford NLP Group. Earlier at Google Research, I worked on Google's Neural Machine Translation (GNMT) system, pioneered single-model <a href="https://aclanthology.org/Q17-1024/" target="_blank" rel="noopener noreferrer">zero-shot multilingual translation</a> across 100+ languages in Google Translate, co-created the <a href="https://proceedings.mlr.press/v119/hu20b.html" target="_blank" rel="noopener noreferrer">XTREME</a> cross-lingual benchmark suite, and researched direct speech-to-speech translation and joint speech-text pre-training.
+          </p>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           BLOCK B: Research Focus / Three Eras
+           ================================================================== -->
+      <section class="content-section" id="block-themes">
+        <div class="section-header">
+          <h2 class="section-title">Research Focus</h2>
+          <span class="section-meta">2015 — Present</span>
+        </div>
+        <div class="themes-list">
+          <div class="theme-row">
+            <span class="theme-period">2023 — Present</span>
+            <div class="theme-body">
+              <h3>Frontier Post-Training, Reasoning &amp; Agents</h3>
+              <p>Post-training all Gemini models since Gemini 1.0 to Gemini 4 Argon.</p>
+            </div>
+          </div>
+          <div class="theme-row">
+            <span class="theme-period">2019 — 2023</span>
+            <div class="theme-body">
+              <h3>Multilingual Pre-Training, Speech &amp; Cross-Lingual Transfer</h3>
+              <p>Large-scale multilingual foundation models (PaLM 2, mT5/nmT5), joint speech-text representations (SLAM, mSLAM, Mu²SLAM), and cross-lingual evaluation benchmarks (XTREME, XTREME-R, XTREME-S, XTREME-UP).</p>
+            </div>
+          </div>
+          <div class="theme-row">
+            <span class="theme-period">2015 — 2019</span>
+            <div class="theme-body">
+              <h3>Neural &amp; Zero-Shot Machine Translation</h3>
+              <p>Core architecture and deployment of Google's Neural Machine Translation (GNMT) and the first single-model multilingual NMT system enabling zero-shot translation between unseen language pairs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           BLOCK C: Selected Publications
+           ================================================================== -->
+      <section class="content-section" id="block-publications">
+        <div class="section-header">
+          <h2 class="section-title">Publications</h2>
+          <span class="section-meta" id="pub-count-meta">Selected</span>
+        </div>
+
+        <div class="pub-controls">
+          <div class="filter-pills" role="tablist" aria-label="Filter publications by topic">
+            <button class="filter-btn active" id="filter-all" data-filter="all">All</button>
+            <button class="filter-btn" id="filter-frontier" data-filter="frontier">Frontier Models</button>
+            <button class="filter-btn" id="filter-multilingual" data-filter="multilingual">Multilingual &amp; NMT</button>
+            <button class="filter-btn" id="filter-speech" data-filter="speech">Speech &amp; Audio</button>
+            <button class="filter-btn" id="filter-benchmarks" data-filter="benchmarks">Benchmarks &amp; Eval</button>
+          </div>
+          <button class="scope-toggle-btn" id="pub-scope-toggle">Show all publications (24)</button>
+        </div>
+
+        <ul class="pub-list" id="pub-list">
+          <!-- Populated by app.js -->
+        </ul>
+      </section>
+
+      <!-- ==================================================================
+           BLOCK D: Invited Talks, Lectures & Essays
+           ================================================================== -->
+      <section class="content-section" id="block-talks">
+        <div class="section-header">
+          <h2 class="section-title">Selected Talks &amp; Essays</h2>
+          <span class="section-meta">Lectures &amp; Writing</span>
+        </div>
+        <ul class="ledger-list">
+          <li class="ledger-item">
+            <span class="ledger-date">Oct 2025</span>
+            <div class="ledger-main">
+              <div class="ledger-title">
+                <a href="https://cs329a.stanford.edu/" target="_blank" rel="noopener noreferrer">Evolution of Post-Training: From Chatbots to Agents</a>
+                <span class="inline-tag">[Lecture]</span>
+              </div>
+              <div class="ledger-sub">Stanford University · CS329A: Self-Improving AI Agents (Autumn &amp; Winter 2025) · <a href="https://www.youtube.com/watch?v=BH7ivnnRfDM" target="_blank" rel="noopener noreferrer">Video</a></div>
+            </div>
+          </li>
+          <li class="ledger-item">
+            <span class="ledger-date">Mar 2017</span>
+            <div class="ledger-main">
+              <div class="ledger-title">
+                <a href="https://share.google/FIEyK2ZUWjdqxp3V9" target="_blank" rel="noopener noreferrer">Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation</a>
+                <span class="inline-tag">[Colloquium]</span>
+              </div>
+              <div class="ledger-sub">Stanford University Computer Systems Colloquium (EE380) &amp; Twitter Tech Talk · <a href="https://share.google/FIEyK2ZUWjdqxp3V9" target="_blank" rel="noopener noreferrer">Video</a></div>
+            </div>
+          </li>
+          <li class="ledger-item">
+            <span class="ledger-date">Nov 2016</span>
+            <div class="ledger-main">
+              <div class="ledger-title">
+                <a href="https://research.google/blog/zero-shot-translation-with-googles-multilingual-neural-machine-translation-system/" target="_blank" rel="noopener noreferrer">Zero-Shot Translation with Google's Multilingual Neural Machine Translation System</a>
+                <span class="inline-tag">[Essay]</span>
+              </div>
+              <div class="ledger-sub">Google Research Blog · With Mike Schuster and Nikhil Thorat</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ==================================================================
+           BLOCK E: Career & Education Timeline
+           ================================================================== -->
+      <section class="content-section" id="block-timeline">
+        <div class="section-header">
+          <h2 class="section-title">Experience &amp; Education</h2>
+          <span class="section-meta">Chronology</span>
+        </div>
+        <ul class="ledger-list">
+          <li class="ledger-item">
+            <span class="ledger-date">2023 — Now</span>
+            <div class="ledger-main">
+              <div class="ledger-title">Google DeepMind</div>
+              <div class="ledger-sub">Vice President, Research · Gemini Post-Training Lead (Mountain View, CA)</div>
+            </div>
+          </li>
+          <li class="ledger-item">
+            <span class="ledger-date">2015 — 2023</span>
+            <div class="ledger-main">
+              <div class="ledger-title">Google Research</div>
+              <div class="ledger-sub">Staff Research Software Engineer · Machine Translation &amp; Multilingual NLP</div>
+            </div>
+          </li>
+          <li class="ledger-item">
+            <span class="ledger-date">2013 — 2015</span>
+            <div class="ledger-main">
+              <div class="ledger-title">Stanford University</div>
+              <div class="ledger-sub">M.S. in Computer Science (Artificial Intelligence) · Research Assistant, Stanford NLP Group (Prof. Christopher D. Manning)</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ==================================================================
+           BLOCK F: Systems & Production Impact (Optional Block)
+           ================================================================== -->
+      
+
+      <!-- ==================================================================
+           BLOCK G: Research Leadership & Mentorship (Optional Block)
+           ================================================================== -->
+      
+    </main>
+
+    <!-- ====================================================================
+         BLOCK H: Minimalist Footer & Colophon
+         ==================================================================== -->
+    <footer class="site-footer" id="block-colophon">
+      <span>Melvin Johnson · Mountain View, CA</span>
+      <div class="footer-links">
+        <a href="https://scholar.google.com/citations?user=g4oMRgsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+        <a href="https://research.google/people/105147/" target="_blank" rel="noopener noreferrer">Google Research</a>
+        <a href="https://www.linkedin.com/in/melvinjosej/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
